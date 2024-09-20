@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>
+example of the css table layout properties
+    </title>
+    <style>
+table{
+    width:250px;
+     border-collapse:seperate ;
+
+}
+table ,tr,th,td{
+    border:1px solid royalblue;
+
+}
+th{
+    text-layout:left;
+}
+.auto{
+    table-layout:auto;
+}
+.fixed{
+    table-layout:fixed;
+}
+td{
+    width:50%;
+}
+
+    </style>
+</head>
+<body>
+    <table class="auto">
+        <caption>example 1. auto</caption>
+        <tr>
+        <th>
+            NAME
+        </th>
+        <TD>
+            NISHANT
+        </TD>
+    </tr>
+    <TR>
+    <th>EMAIL</th>
+<TD>SINGH@GMAL.COMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</TD>
+</TR>
+</table><br>
+    <TABLE class="fixed">
+        <caption>example 2.fixed</caption>
+        <tr>
+            <th>NAME</th>
+            <td>meeankshi</td>
+        </tr>
+        <tr>
+            <th>EMAIL</th>
+            <td>meenakshi@gmsil.commmmmmmmmmmmmmmmmmmm</td>
+        </tr>
+        </TABLE>
+        <br>
+        <p> <strong>note:</strong>
+        you can see the width of table cell does not change to accomadate the content in fixed table layout</p>
+        </body>
+    
+
+
+
+
+

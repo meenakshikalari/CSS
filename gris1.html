@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> grid Document</title>
+
+    <style>
+       .item h1{
+        background-color:aqua;
+        padding:30px;
+        text-align:center;
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+       }
+        .item{
+            display:grid;
+            grid-template-columns: 30% 30% 30%;
+            /*
+            grid-template-columns:auto auto auto auto
+            grid-row-gap:20px;
+            grid-column-gap:20px*/
+            grid-gap:20px 20px;
+
+        }
+*{
+    margin:0
+}
+#para1{grid-row:span 2;}
+#para2{grid-column:span 2;}
+#para3{grid-column: span 2;}
+ </style>
+</head>
+<body>
+    <div class="item">
+<h1 class="para1">heading1</h1>
+<h1 class="par2">heading2</h1>
+<h1 class="para3">heading3</h1>
+<h1>heading4</h1>
+<h1>haeding5</h1>
+<h1>heading6</h1>
+    </div>
+
+
+    <section>
+        <main>
+            <img src="https://getwallpapers.com/wallpaper/full/7/c/7/624165.jpg" width="400" height="300" target="_blank">
+            <h1>html</h1>
+            <p></p>
+        </main>
+    </section>
+
+
+
+
+
+
+</body>
+</html>
